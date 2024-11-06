@@ -116,10 +116,10 @@ SAILFISHAPP_ICONS = 86x86 108x108 128x128 256x256
 
 INSTALLS += resources
 
-LIBS += -L$$OUT_PWD/../lib/ -lsubsoniq
+LIBS += -L$$OUT_PWD/lib/ -lsubsoniq
 
-INCLUDEPATH += $$PWD/../lib
-DEPENDPATH += $$PWD/../lib
+INCLUDEPATH += $$PWD/lib
+DEPENDPATH += $$PWD/lib
 
 DISTFILES += \
     qml/pages/FetchMoreTemplate.qml \
