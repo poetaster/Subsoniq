@@ -4,8 +4,8 @@ on:
   push:
     branches:
       - harbour
-    tags:
-      - "0.*"
+        #    tags:
+        #- "0.*"
 
 env:
   OS_VERSION: 4.4.0.68
