@@ -2,6 +2,8 @@ name: Build RPMs
 
 on:
   push:
+    branches:
+      - harbour
     tags:
       - "0.*"
 
